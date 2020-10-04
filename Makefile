@@ -1,1 +1,1 @@
-gcc src/subscriber.c
+gcc -C src/subscriber.c
