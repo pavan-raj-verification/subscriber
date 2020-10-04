@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 #include<ctype.h>
-#include<windows.h>
+
 #include<stdlib.h>
 //added header file
 #include"subscriber.h"
