@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<curses.h>
 #include<ctype.h>
-#include<window>
+
 #include<stdlib.h>
 #include<string.h>
 struct subscriber
@@ -22,13 +22,7 @@ void addrecords()
 	FILE *f;
 	char test;
 	f=fopen("c:/file10.ojs","ab+");
-	if(f==0)
-	{   f=fopen("c:/file10.ojs","wb+");
-		system("cls");
-		printf("please wait while we configure your computer");
-		printf("/npress any key to continue");
-		getch();
-	}
+	
 	while(1)
 	{
 		system("cls");
@@ -81,7 +75,7 @@ void searchrecords()
 	int flag=1;
 	f=fopen("c:/file10.ojs","rb+");
 	if(f==0)
-		exit(0);
+	exit(0);
 	fflush(stdin);
 	system("cls");
 	printf("Enter Phone Number to search in our database");
