@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<curses.h>
 #include<ctype.h>
-
+#include<window>
 #include<stdlib.h>
 #include<string.h>
 struct subscriber
@@ -47,7 +47,7 @@ void addrecords()
 		system("cls");
 		printf("1 record successfully added");
 		printf("\n Press esc key to exit, any other key to add other record:");
-		test=getche();
+		test=getch();
 		if(test==27)
 			break;
 	}
