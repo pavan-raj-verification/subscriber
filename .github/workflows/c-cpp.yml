@@ -13,7 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    - name: install libraries necessary 
+      run: sudo apt-get install ncurses-dev
+      
     - name: make
       run: make
 
