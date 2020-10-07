@@ -19,16 +19,16 @@ int main()
 	printf("\n\n\n\n\n\n\n\n\n***********************************************************");
 	printf("\n\t\t--------------WELCOME-------------");
 	printf("\n\t****************************************************************");
-	Sleep(2000);
+	
 	getch();
-    system("cls");
+    	system("cls");
 	while (1)
 	{
 		system("cls");
 		printf("\n enter\n 1 : for adding new records.\n 2 : for list of records");
 		printf("\n 3 : for modifying records.\n 4 : for payment");
 		printf("\n 5 : for searching records.");
-		choice=getche();
+		choice=getch();
 		choice=toupper(choice);
 		switch(choice)
 		{
