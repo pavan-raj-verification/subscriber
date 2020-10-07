@@ -7,4 +7,4 @@ CFLAGS=-I${TOPDIR}/inc
 all:$(TARGET)
 
 $(TARGET):$(OBJS)
-	gcc $^ -o $@
+	gcc $^ -lpthread -lncurses -ltinfo -o $@
