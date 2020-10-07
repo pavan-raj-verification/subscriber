@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#inlcude<curses.h>
 #include<ctype.h>
 
 #include<stdlib.h>
