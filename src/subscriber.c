@@ -46,7 +46,7 @@ int main()
 				system("cls");
 				printf("\n\n\t\t\t\tTHANK YOU");
 				printf("\n\n\n\n\n:\n\tFOR USING OUR SERVICE");
-				Sleep(2000);
+				
 				exit(0);
 				break;
 			default:
